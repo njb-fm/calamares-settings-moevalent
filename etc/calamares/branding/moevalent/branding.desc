@@ -160,10 +160,10 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "install.png"
+    productIcon:         "icon.png"
     productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "icon.png"
+    productWelcome:      "welcome.png"
 
 # Colors for text and background components.
 #
@@ -177,13 +177,10 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#292F34"
+   sidebarBackground:    "#EE36EE"
    sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#00CED1"
-   #sidebarTextHighlight: "#D35400" 
-   #--strong orange
-   #sidebarTextHighlight: "#9b870c"
+   sidebarTextSelect:    "#EE36EE"
+   sidebarTextHighlight: "#FFFFFF"
 
 ### SLIDESHOW
 #
